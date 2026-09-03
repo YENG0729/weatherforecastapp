@@ -1,0 +1,32 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'tw.cwa.weather'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "tw.cwa.weather"
+        minSdk 21              // Android 5.0 以上
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+// 刻意不加入任何相依套件（連 AndroidX 都不用），
+// 全部使用 Android 框架內建類別，維持與桌面版相同的「零外部相依」原則。
+dependencies {
+}

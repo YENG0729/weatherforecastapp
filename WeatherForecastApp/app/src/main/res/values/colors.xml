@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="headerBlue">#1A3A6B</color>
+    <color name="tableHeader">#DCE6F1</color>
+    <color name="summaryRed">#A02020</color>
+    <color name="widgetBg">#1E2A38</color>
+    <color name="widgetBgLight">#27374B</color>
+    <color name="widgetAccent">#7FC4FF</color>
+    <color name="widgetDim">#9FB3C8</color>
+</resources>
