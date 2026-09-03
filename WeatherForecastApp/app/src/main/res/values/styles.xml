@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- 使用系統內建 Material 佈景，不引入 AppCompat，維持零外部相依 -->
-    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar" />
-</resources>
